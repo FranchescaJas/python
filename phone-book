@@ -1,0 +1,8 @@
+phone_book = {
+    "jayashree": "90234222",
+    "das": "90234223",
+    "dubey": "90234224"
+}
+
+name = input("Enter name to search: ").lower()
+print(phone_book.get(name, "Not found"))
